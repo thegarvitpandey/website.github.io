@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Caveat:wght@700&family=Cookie&family=Courgette&family=Dancing+Script:wght@700&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Gloria+Hallelujah&family=Lobster&family=Monoton&family=Orbitron:wght@900&family=Press+Start+2P&family=Rampart+One&family=Righteous&family=Sacramento&family=Shadows+Into+Light&family=Square+Peg&family=Tangerine:wght@700&family=Yellowtail&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/bc4dd115d7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="preloader"></div>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/nam.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Full <span>Stack Web</span> Developer</p>
+                    <h1>नमस्कार,<br>I'm <span>Garvit Pandey</span>...</h1>
+                </div>
+            </div>
+        </div>
+        <!----------------about----------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/ik.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p class="para">Hey, I'm Garvit Pandey from Sagar Madhya Pradesh. I have my Graduation in Bachelor of Technology from Madhav Institute of Technology & Science, 
+                        Gwalior (MITS Gwalior). My major is in Electronics Engineering. I'm fluent in English and Hindi both. I have interest in 
+                        reading biographies of famous personalities who dared to changed the world, I also like to watch events, people oreinted 
+                        documentary movies. I have a profound interest in swimming, football and soccer. I perform quite well in Drawing & Sketching. 
+                        I'm also attracted towards spiritual aspects of life.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Basics of C & Python</span><br>Projects in Python and C</li>
+                                <li><span>Web Development</span><br>Website Development</li>
+                                <li><span>Bot Development</span><br>Building Discord Bot</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022</span><br>Student Mentee</li>
+                                <li><span>2021</span><br>Content Head</li>
+                                <li><span>2020</span><br>Oragnised events</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024</span><br>B.Tech in Electronics Engineering at MITS Gwalior</li>
+                                <li><span>2022</span><br>Full Stack Web Development course from Udemy</li>
+                                <li><span>2021</span><br>Data Science course from Swayam Portal</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--------------------------services  ------------------------>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <center><i class="fa-solid fa-code"></i></center>
+                        <h2 align="center">Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <center><i class="fa-solid fa-crop-simple"></i></center>
+                        <h2 align="center">UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <center><i class="fa-brands fa-app-store-ios"></i></center>
+                        <h2 align="center">App Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--------------- portfolio  --------------------> 
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/bo.png">
+                        <div class="layer">
+                            <h3>Discord Chat Bot</h3>
+                            <p>The app lets you connect to the most influential people out there. Download now from any store.</p>
+                            <a href="https://replit.com/@Reshyu/Birbal#main.py"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Portfolio Website</h3>
+                            <p>An interactive portfolio website that has smooth transitions and looks professional</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/tin.jpg">
+                        <div class="layer">
+                            <h3>TinDog Webiste</h3>
+                            <p>Similar to Tinder, TinDog allows you to buy a species of dog and get our customer reviews.</p>
+                            <a href="E:\web\TinDog-Start-master\index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="E:\web\cs50 web\page1.html" class="btn"> See more</a>
+            </div>
+        </div>       
+
+<!-------------------------- contact  ------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>thegarvitpandey@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>1234567890</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <a href="images/mycv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="Your mail id" required>
+                            <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> © Copyright Garvit Pandey 2022 </p>
+            </div>
+        </div>
+
+
+
+<!----------------------------Js for----about me------------------>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");  /*------ wil remove the underline of skills ----*/
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");     /*------ wil remove the content of current tab (intially skills) ----*/
+                }
+                event.currentTarget.classList.add("active-link");   /*-- -- will display the aacytive link and display the color (underline)----*/
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+<!----------------- for menu clcik functionality------------------->
+         <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";            /*---------------------- whenever the right is 0, it is visible -----------------*/
+            }
+            
+            function closemenu() {
+                sidemenu.style.right = "-200px";            /*---------------------- whenever the right is 1, it is invisible -----------------*/
+            }
+
+         </script>
+
+
+<!-------------------------- script for responsive form ----------------------->
+         <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyoSapKvWoyqoss88J078_uHfUbLHKnLp4_GSp4LML49FBiZXbECpV3PM1WbCBXzashKQ/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "We got your text!!!"
+                        setTimeout(function(){
+                            msg.innerHTML = ""
+                        }, 5000)           /*------- 5000 = 5s after this the mesage will be removed-------*/
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+        <!-------------------preloader fintie -------------------->
+        <script>
+            var loader = document.getElementById("preloader");
+            /* ----  adding loading event -----*/
+            window.addEventListener("load", function(){
+                loader.style.display = "none";
+            })
+        </script>
+    </body>
+</html>
