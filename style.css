@@ -284,6 +284,7 @@ nav ul li a:hover::after{
 }
 .social-icons{
     margin-top: 30px;
+    margin-left: 6%;
 }
 .social-icons a{
     text-decoration: none;
@@ -300,6 +301,14 @@ nav ul li a:hover::after{
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
+    margin-left: 5%;
+}
+.btn.btn3 {
+    display: inline-block;
+    background: #ff004f;
+    align-items: center;
+    width: 100%;
+    font-size: 100%
 }
 .contact-right form{
     width: 100%;
@@ -406,6 +415,9 @@ nav .fa-solid{
     }
     .copyright{
         font-size: 14px;
+    }
+    .social-icons{
+        margin-left: 7%;
     }
 
 }
